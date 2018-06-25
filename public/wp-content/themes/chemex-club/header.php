@@ -19,7 +19,7 @@
         <input type="hidden" id="ajax_url" value="<?php echo admin_url('admin-ajax.php'); ?>">
         <div class="container" id="navbar-main">
             <div class="row">
-                <div class="col-xs-8 company-logo">
+                <div class="col-xs-12 company-logo">
                     <p>The <span class="darker">Chemex</span> <span class="lighter">club</span></p>
                     </a>
                 </div>

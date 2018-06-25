@@ -1,5 +1,5 @@
 <footer>
-    Made with <i class="fas fa-heart"></i> by <a href="https://coloredcow.com">ColoredCow</a>.
+    <i class="fas fa-coffee"></i> Brewed at <a href="https://coloredcow.com">ColoredCow</a>.
 </footer>
 
 </body>
