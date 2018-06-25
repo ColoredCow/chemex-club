@@ -1,0 +1,19 @@
+*.log
+.htaccess
+composer.lock
+
+public/wp
+vendor
+public/wp-content/plugins
+public/wp-config.php
+public/wp-content/uploads
+
+#gitignore for theme folder
+!/public/wp-content/themes/chemex-club
+/public/wp-content/themes/chemex-club/node_modules
+/public/wp-content/themes/chemex-club/dist/css
+/public/wp-content/themes/chemex-club/dist/js
+/public/wp-content/themes/chemex-club/main.js
+/public/wp-content/themes/chemex-club/style.css
+/public/wp-content/themes/chemex-club/*.map
+/public/wp-content/themes/chemex-club/.sass-cache
