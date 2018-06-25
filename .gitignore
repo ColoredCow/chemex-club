@@ -17,3 +17,6 @@ public/wp-content/uploads
 /public/wp-content/themes/chemex-club/style.css
 /public/wp-content/themes/chemex-club/*.map
 /public/wp-content/themes/chemex-club/.sass-cache
+
+/.DS_Store
+*/.DS_Store
