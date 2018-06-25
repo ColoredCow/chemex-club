@@ -1,0 +1,112 @@
+/**
+ *  Theme Name: The Chemex Club
+ *  Theme URI: http://chemex.coloredcow.com
+ *	Author: ColoredCow
+ *	Author URI: http://chemex.coloredcow.com
+ *	Description: Wordpress theme for chemex.coloredcow.com
+ *	Version: 1.0
+ *	License: GNU General Public License v2 or later
+ *	License URI: www.gnu.org/licenses/gpl-2.0.html
+ *	Tags: 
+ *	Text Domain: chemex-theme
+ * 
+ */
+
+@import "colors";
+@import "masonary";
+
+body{
+	color: $black;
+	top: 0;
+    position: absolute;
+    width:100vw;
+}
+
+
+#navbar-main {
+	padding: 30px;
+	background-color: $white;
+	font-size:1.5em;
+	width:100%;
+	font-weight: bold;
+	cursor:pointer;
+	top:0;
+	z-index: 1000;
+	&>.row{
+		margin:0px;
+	}
+	.company-logo{
+		color:$black;
+		font-family: 'EB Garamond', serif;
+		font-size: 1.5em;
+		font-weight: bold;
+		padding:0;
+		&>p{
+			color: $grey;
+    		display: inline-block;
+    		span.darker{
+				color: $dark-brown;
+    		}
+    		span.lighter{
+				color: $light-brown;
+				font-weight: bold;
+    		}
+		}
+	}
+	.menu{
+		text-align:right;
+		&>img{
+			width:50%;
+		}
+		&:hover{
+			
+		}
+	}
+}
+
+.col-padding-custom{
+	padding: 0 0.2em;
+}
+
+#blogs-listing{
+	width:100%;
+	overflow-y: scroll;
+	.blog-entry{
+		width:100%;
+		margin-bottom: 1em;
+		color: rgba(0 ,0 ,0 ,0.84);
+  		transition: all 0.2s ease-in-out;
+	    background-color: $white;
+		border-radius: 6px;
+	    padding: 10px;
+  		&:hover{
+			background-color: $lightest-brown;
+		}
+		img {
+			border-radius: 6px;
+		}
+	}
+}
+footer{
+	font-family: 'Roboto', sans-serif;
+	.fas {
+		color: $light-brown;
+	}
+	color: $darkest-brown;
+	padding: 1em;
+    text-align: center;
+}
+#container-404{
+	font-family: 'EB Garamond', serif;
+	text-align:center;
+	top: 30vh;
+	font-size: 2em;
+	width:100%;
+	.title{
+		font-size: 2.5em;
+	}
+}
+
+a:hover, a:active, a:visited, a:focus{
+	text-decoration: none;
+}
