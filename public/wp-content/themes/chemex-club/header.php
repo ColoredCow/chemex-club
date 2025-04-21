@@ -20,7 +20,7 @@
         <div class="container" id="navbar-main">
             <div class="row">
                 <div class="col-xs-12 company-logo">
-                    <p>The <span class="darker">Chemex</span> <span class="lighter">club</span></p>
+                    <p>The <span class="darker">Coffee</span> <span class="lighter">club</span></p>
                     </a>
                 </div>
             </div>
